@@ -1,0 +1,6 @@
+flight_data_2024.csv 
+__pycache__/
+*.pyc
+mlflow.db
+mlruns/
+.env
