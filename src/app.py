@@ -14,11 +14,12 @@ st.markdown("""
         padding: 3rem 1rem 2rem 1rem;
     }
     .hero-title {
-    font-size: 4.5rem;
-    font-weight: 800;
-    color: #ffffff;
-    margin: 0;
-    letter-spacing: -1.5px;
+        font-size: 6rem !important;;
+        font-weight: 900;
+        color: #ffffff;
+        margin: 0;
+        letter-spacing: -2px;
+        line-height: 1;
     }
     .hero-subtitle {
         font-size: 1.1rem;
@@ -123,9 +124,9 @@ if submitted:
     with st.spinner("Checking flight history..."):
         try:
             response = requests.post(
-            "https://wheels-up-api.onrender.com/predict",
-            json=payload,
-            timeout=60
+                "https://wheels-up-api.onrender.com/predict",
+                json=payload,
+                timeout=60
             )
             response.raise_for_status()
             result = response.json()["prediction"]
