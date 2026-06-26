@@ -9,8 +9,8 @@ I built this project to learn how a machine learning model can be taken from dat
 The model is trained on flight records from the Bureau of Transportation Statistics and predicts whether a flight is likely to be delayed before departure.
 
 ## Live Demo
-- **API:** https://flight-delay-predictor-l6j5.onrender.com/docs
-- **UI:** https://flight-delay-predictor-ui.onrender.com
+- **UI:** https://wheels-up-ui.onrender.com
+- **API:** https://wheels-up-api.onrender.com/docs
 
 ## What I Used
 
